@@ -3,7 +3,6 @@ import App from "../App";
 import Products from "../pages/Products";
 import Template from "../Template";
 import Profile from "../pages/Profile"; 
-import CategoryProduts from "../pages/categoryProducts";
 import Login from "../pages/Login";
 import Cart from "../pages/Cart";
 import { auth, cart } from "../middleware/auth";
