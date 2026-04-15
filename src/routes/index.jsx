@@ -3,6 +3,7 @@ import App from "../App";
 import Products from "../pages/Products";
 import Template from "../Template";
 import Profile from "../pages/Profile"; 
+import CategoryProduts from "../pages/CategoryProducts";
 import Login from "../pages/Login";
 import Cart from "../pages/Cart";
 import { auth, cart } from "../middleware/auth";
@@ -28,7 +29,7 @@ export const router = createBrowserRouter([
             }, {
                 // path dinamis menggunakan titik 2 (:)
                 path: "/products/category/:categoryId",
-                element: <CategoryProducts />
+                element: <CategoryProduts />
             }, {
                 path: "/login",
                 element: <Login />,
