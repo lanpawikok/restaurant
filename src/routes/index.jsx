@@ -28,7 +28,7 @@ export const router = createBrowserRouter([
             }, {
                 // path dinamis menggunakan titik 2 (:)
                 path: "/products/category/:categoryId",
-                element: <CategoryProduts />
+                element: <CategoryProducts />
             }, {
                 path: "/login",
                 element: <Login />,
